@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    
+       <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image__container">
+            <img src ="Images/p1.jpg"/>
+        </div>
+        <h3 id="title">River Flow</h3>
+        <h2 id="Artist">Eminem</h2>
+        <audio src="Images/Audio/p1.mp3"></audio>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration_wrapper">
+                <span class="current-time" id="current-duration">0:00</span>
+                <span class="duration" id="duration">2:35</span>
+            </div>
+
+           
+
+        </div>
+        <!-- buttons -->
+        <div class="player-control">
+            <i class="fas fa-step-backward" id="Prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-step-forward" id="Next" title="forward"></i>
+        
+        </div>
+        
+    </div>
+    
+    <script src="script.js" />
+</body>
+</html>
